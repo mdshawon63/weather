@@ -8,7 +8,7 @@ export default function App() {
   const { place, weather, loading, error, search } = useWeather();
 
   useEffect(() => {
-    search("Dhaka"); // default city on first load
+    search("Dhaka"); 
   }, [search]);
 
   return (

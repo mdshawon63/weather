@@ -1,4 +1,3 @@
-// Open-Meteo is free and needs no API key.
 const GEO_URL = "https://geocoding-api.open-meteo.com/v1/search";
 const WEATHER_URL = "https://api.open-meteo.com/v1/forecast";
 

@@ -1,4 +1,3 @@
-// Open-Meteo WMO weather codes -> label + emoji
 export function describeWeather(code) {
   if (code === 0) return { label: "Clear sky", icon: "☀️" };
   if ([1, 2].includes(code)) return { label: "Partly cloudy", icon: "⛅" };
